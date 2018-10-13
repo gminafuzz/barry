@@ -1,5 +1,5 @@
 vowels = ['a', 'e', 'i', 'o', 'u']
-word = "Milliways"
+word = input()
 found = []
 
 for letter in word:
