@@ -18,5 +18,5 @@ for beer_num in range(30, 0, -1):
                 word = "бутылки"
             else:
                 word = "бутылок"
-        print(new_num, word, "пива на стене")
+        print(new_num, word, "пива на стене.")
     print()
