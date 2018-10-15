@@ -5,5 +5,5 @@ for letter in word:
     if letter in vowels:
         vowels[letter] += 1
 
-for i in vowels:
-    print (i, 'was found', vowels[i], 'time(s)')
+for i, j in sorted(vowels.items()):
+    print (i, 'was found', j, 'time(s)')
