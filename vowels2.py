@@ -5,4 +5,5 @@ for letter in word:
     if letter in vowels:
         vowels[letter] += 1
 
-print (vowels)
+for i in vowels:
+    print (i, 'was found', vowels[i], 'time(s)')
