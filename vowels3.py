@@ -7,4 +7,4 @@ for letter in word:
     if letter in found:
         found[letter] += 1
 for i, j in sorted(found.items()):
-    print (i, 'was found', j, 'time(s')
+    print (i, 'was found', j, 'time(s)')
